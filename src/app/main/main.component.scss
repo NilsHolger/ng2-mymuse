@@ -2,7 +2,7 @@ $mobile-only: "only screen and (max-width : 768px)";
 
 .main-content {
   position: relative;
-  margin-left: 20%;
+  margin-left: 23%;
   min-height: 100vh;
   -webkit-transition: opacity .2s ease;
   transition: opacity .2s ease;
@@ -38,7 +38,7 @@ $mobile-only: "only screen and (max-width : 768px)";
 }
 
 .loading-section {
-    height: 30px;
+    height: 60px;
     margin: 40px 0 40px 40px;
 
   @media #{$mobile-only} {
