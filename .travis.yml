@@ -1,11 +1,9 @@
-#.travis.yml
-
 language: node_js
 node_js:
   - "5.11"
 
-  branches:
-    only:
+branches:
+  only:
       - master
 
 before_script:
@@ -16,6 +14,7 @@ script:
   - ng build --prod --aot
 
 after_success:
+  - firebase use default
   - firebase deploy --token $FIREBASE_TOKEN
 
 notifications:
