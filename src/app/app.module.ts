@@ -10,6 +10,9 @@ import { HeaderComponent } from './header/header.component';
 import { MainComponent } from './main/main.component';
 import { FooterComponent } from './footer/footer.component';
 import { ForYouComponent } from './foryou/foryou.component';
+import { WeAreAngularComponent } from './weareangular/weareangular.component';
+import { OurSuperPowersComponent } from './oursuperpowers/oursuperpowers.component';
+import { VictoryComponent } from './victory/victory.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { ForYouComponent } from './foryou/foryou.component';
     HeaderComponent,
     MainComponent,
     FooterComponent,
-    ForYouComponent
+    ForYouComponent,
+    WeAreAngularComponent,
+    OurSuperPowersComponent,
+    VictoryComponent
   ],
   imports: [
     BrowserModule,
