@@ -1,0 +1,12 @@
+$mobile-only: "only screen and (max-width : 768px)";
+
+.main-content {
+  position: relative;
+  margin-left: 23%;
+  min-height: 100vh;
+  -webkit-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+  box-sizing: border-box;
+  padding: 8px 0;
+  z-index: 0;
+}

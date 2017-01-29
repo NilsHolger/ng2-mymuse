@@ -13,6 +13,7 @@ import { ForYouComponent } from './foryou/foryou.component';
 import { WeAreAngularComponent } from './weareangular/weareangular.component';
 import { OurSuperPowersComponent } from './oursuperpowers/oursuperpowers.component';
 import { VictoryComponent } from './victory/victory.component';
+import { RewardComponent } from './reward/reward.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { VictoryComponent } from './victory/victory.component';
     ForYouComponent,
     WeAreAngularComponent,
     OurSuperPowersComponent,
-    VictoryComponent
+    VictoryComponent,
+    RewardComponent
   ],
   imports: [
     BrowserModule,
